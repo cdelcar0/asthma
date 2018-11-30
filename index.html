@@ -1,0 +1,257 @@
+<html>
+	<script src="myScript2.js"></script>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+   	<body>
+			<div class="asthma_layout">
+<!--Patient info-->
+				<div id="basicInfo" class="layout_3col">
+					<div class=layoutTable2Col>
+						<div class='layout_2col layoutTableTitle'>Patient Information</div>
+						<div class='layoutRowTitle'>Age:</div>
+						<div class='layoutRowData'>27</div>
+						<div class='layoutRowTitle'><br`>Height:</div>
+						<div class='layoutRowData'>66in (5' 6&quot)</div>
+						<div class='layoutRowTitle'>Gender:</div>
+						<div class='layoutRowData'>F</div>
+					</div>
+				</div>
+<!--Peak Flow Threshold-->
+				<div id="peakFlowThreshold" class="layout_9col">
+					<div class=layoutTable9Col>
+						<div class='layout_9col layoutTableTitle'>Peak Flow Threshold</div>
+						<div class='layout_4col'>
+							<center>Use Peak Flow (calculated or best?)
+								<label class='radio-inline'>
+									<input type='radio' name='optradio'>Yes
+			    			</label>
+								<label class='radio-inline'>
+									<input type='radio' name='optradio'>No
+			    			</label>
+							</center>
+						</div>
+						<div>
+						</div>
+						<div class='layout_4col'>
+							<center>Best Peak Flow (personal best):
+								<form>
+									<input type='number' name='peakFlow' placeholder='Peak Flow'>
+								</form>
+							</center>
+						</div>
+						<div class='layout_3col greenBackground'>
+							<center><strong>Green Zone (>250)</strong><br>
+							greater than 80% of peak flow
+							</center>
+						</div>
+						<div class='layout_3col yellowBackground'>
+							<center><strong>Yellow Zone (250-400)</strong><br>
+							between 50% and 80% of peak flow
+							</center>
+						</div>
+						<div class='layout_3col redBackground'>
+							<center><strong>Red Zone (&lt400)</strong><br>
+							less than 50% of peak flow
+							</center>
+						</div>
+						<div class='layout_9col'>
+							<center>Last Documented: N/A</center>
+						</div>
+					</div>
+					<br>
+					<div class='layoutTable9Col'>
+						<div class='layout_9col layoutTableTitle'>
+							<center>Asthma Assessment of Symptoms</center>
+						</div>
+						<div class='layout_9col'>
+							<center><strong>Level of Control: </strong>
+							Not documented (update asthma assessment)
+							</center>
+						</div>
+						<div class='layout_9col'>
+							<center>Is the patient regularly taking a controlled medication
+								<label class='radio-inline'>
+									<input type='radio' name='optradio'>Yes
+								</label>
+								<label class='radio-inline'>
+									<input type='radio' name='optradio'>No
+								</label>
+							</center>
+						</div>
+					</div>
+				</div>
+				<br>
+<!--Substance Control Quality-->
+				<div id='substanceControlQuality' class='layout_12col'>
+					<div class='layoutTable12Col'>
+						<div class='layout_4col layoutTableTitle greenBackground'>
+							Well Controlled
+						</div>
+						<div class='layout_4col layoutTableTitle yellowBackground'>
+							Not Well Controlled
+						</div>
+						<div class='layout_4col layoutTableTitle redBackground'>
+							Very Poorly Controlled
+						</div>
+						<div class='layout_4col greenBackground'>
+							<ul>
+								<li>Item One</li>
+								<li>Item Two</li>
+								<li>Item Three</li>
+								<li>Item Four</li>
+							</ul>
+						</div>
+						<div class='layout_4col yellowBackground'>
+							<ul>
+								<li>Item One</li>
+								<li>Item Two</li>
+								<li>Item Three</li>
+								<li>Item Four</li>
+							</ul>
+						</div>
+						<div class='layout_4col redBackground'>
+							<ul>
+								<li>Item One</li>
+								<li>Item Two</li>
+								<li>Item Three</li>
+								<li>Item Four</li>
+							</ul>
+						</div>
+						<div class='layout_4col greenBackground'>
+							Maintain current step or step down if well controlled for at least 3 months
+						</div>
+						<div class='layout_4col yellowBackground'>
+							Step up 1 step and reevaluate in 2-6 weeks
+						</div>
+						<div class='layout_4col redBackground'>
+							Step up 1-2 steps and reevaluate in 2 weeks plus consider oral steroid course
+						</div>
+					</div>
+				</div>
+				<br>
+<!--Step Therapy Selection-->
+				<div id='stepTherapySelection' class='layout_12col'>
+					<div class='layoutTable12Col'>
+						<div class=layout_12col>
+						</div>
+						<div class='layout_12col layoutTableTitle'>Step Therapy Selection (please click the appropriate step)
+						</div>
+						<div class='layout_2col'>
+							<center><strong>Step 1</center></strong>
+							<ul>
+								<li>SABA PRN</li>
+							</ul>
+						</div>
+						<div class='layout_2col'>
+							<center><strong>Step 2</center></strong>
+							<ul>
+								<li>Low-Dose ICS</li>
+								<li>LTRA</li>
+							</ul>
+						</div>
+						<div class='layout_2col'>
+							<center><strong>Step 3</center></strong>
+							<ul>
+								<li>Low-Dose ICS + LABA</li>
+								<li>Medium-Dose ICS</li>
+								<li>Low-Dose ICS + LTRA</li>
+								<li>Low-Dose ICS + LTRA + LABA</li>
+							</ul>
+						</div>
+						<div class='layout_2col'>
+							<center><strong>Step 4</center></strong>
+							<ul>
+								<li>Medium ICS + LABA</li>
+								<li>Medium-Dose Inhaled Corticosteroid + Leukotriene Receptor Antagonist</li>
+								<li>Medium-Dose ICS + LABA + LTRA</li>
+							</ul>
+						</div>
+						<div class='layout_2col'>
+							<center><strong>Step 5</center></strong>
+							<ul>
+								<li>High-Dose ICS + LABA</li>
+								<li>High-Dose ICS + LABA + LTRA</li>
+							</ul>
+						</div>
+						<div class='layout_2col_last'>
+							<center><strong>Step 6</center></strong>
+							<ul>
+								<li>High-Dose ICS + LABA + Oral Steroid</li>
+								<li>High-Dose ICS + LABA + LTRA + Oral Steroid</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br>
+<!--FDA Warning-->
+				<div class="layout_12col">
+						<center><strong>**The green zone medication and doses listed here are based on their FDA approved labeling. Prescribing higher doses is considered off-label**</strong></center>
+				</div>
+				<br>
+<!--Green Zone Meda-->
+				<div id='greeZone 'class="layout_12col">
+					<div class='layoutTable12ColZone'>
+						<div>
+						</div>
+							<div class="layout_10col medTitle greenBackground noBottomBorder">
+								No Maintenance Medication Needed (Preferred)
+							</div>
+							<div>
+							</div>
+							<div>
+							</div>
+							<div class="layout_10col">
+								<form>
+									<input type="radio" name="" value="">No daily asthma medication (controller) needed.
+								</form>
+							</div>
+					</div>
+				</div>
+				<br>
+<!--Yellow Zone Meda-->
+				<div id='yellowZone 'class="layout_12col">
+					<div class='layoutTable12ColZone'>
+						<div>
+						</div>
+							<div class="layout_10col medTitle yellowBackground noBottomBorder">
+								Yellow Zone
+							</div>
+							<div>
+							</div>
+							<div>
+							</div>
+							<div class="layout_10col">
+								<form>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed<br>
+									<input type="checkbox" name="" value="">Albuterol 90 mcg/puff inhaled HFA - 2 puffs inhaled every 4-6 hours as needed<br>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed<br>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed
+								</form>
+							</div>
+					</div>
+				</div>
+				<br>
+<!--Red Zone Meda-->
+				<div id='redZone 'class="layout_12col">
+					<div class='layoutTable12ColZone'>
+						<div>
+						</div>
+							<div class="layout_10col medTitle redBackground noBottomBorder">
+								Red Zone
+							</div>
+							<div>
+							</div>
+							<div>
+							</div>
+							<div class="layout_10col">
+								<form>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed<br>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed<br>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed<br>
+									<input type="checkbox" name="" value="">Albuterol 2.5 mg/3mL nebulized - 1 neb inhaled every 4-6 hours as needed
+								</form>
+							</div>
+					</div>
+				</div>
+			</div>
+   	</body>
+</html>

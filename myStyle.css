@@ -1,0 +1,151 @@
+.asthma_layout{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	font-family: Tahoma;
+	border-color: rgb(0,0,0 1);
+	grid-column-gap: 3px;
+}
+
+.layoutTable2Col{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 0px 3px;
+	border: solid;
+	border-color:black;
+	border-width: 2px;
+}
+
+.layoutTable3Col{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 0px 3px;
+	border: solid;
+	border-color:red;
+}
+
+.layoutTable9Col{
+	display: grid;
+	grid-template-columns: repeat(9,1fr);
+	border: solid;
+	border-width: 2px;
+}
+
+.layoutTable12Col{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	border: solid;
+	border-width: 2px;
+}
+
+.layoutTable12ColZone{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+}
+
+.layout_2col{
+	grid-column-start: span 2;
+	border: solid;
+	border-width: 0px 2px 0px 0px;
+}
+
+.layout_2col_last{
+	grid-column-start: span 2;
+	border: solid;
+	border-width: 0px;
+}
+
+.layout_3col{
+	grid-column-start: span 3;
+}
+
+.layout_4col{
+	grid-column-start: span 4;
+}
+
+.layout_9col{
+	grid-column-start: span 9;
+}
+
+.layout_10col{
+	grid-column-start: span 10;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 0px;
+}
+
+.layout_12col{
+	grid-column-start: span 12;
+}
+
+.layoutTableTitle{
+	text-align: center;
+	font-weight: bold;
+	border: solid;
+	border-color: black;
+	border-width: 0px 0px 2px 0px;
+}
+
+.layoutRowTitle{
+	text-align: right;
+	font-weight: 600;
+	font-size: 14px;
+	border: solid;
+	border-color: lightgray;
+	border-width: 0px 0px 2px 0px;
+
+}
+
+.layoutRowData{
+	text-align: left;
+	font-size: 14px;
+	border: solid;
+	border-color: lightgray;
+	border-width: 0px 0px 2px 0px;
+}
+
+.radio-inline{
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+	margin-bottom:0;
+	font-weight:400;
+	vertical-align:middle;
+	cursor:pointer
+}
+
+.medTitle{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+form {
+	display: inline-block;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+}
+
+.greenBackground{
+	background-color: green;
+	padding: 0px 5px;
+}
+
+.yellowBackground{
+	background-color: yellow;
+	padding: 0px 5px;
+}
+
+.redBackground{
+	background-color: red;
+	padding: 0px 5px;
+}
+
+.noBottomBorder{
+	border-bottom-width: 0px;
+}
+
+ul{
+	margin: 0px;
+}
